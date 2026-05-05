@@ -1,0 +1,32 @@
+:root {
+    --deep-night: #1E1B3A;
+    --primary-purple: #3A2F6E;
+    --accent-purple: #6C4FD6;
+    --light-purple: #A78BFA;
+    --soft-purple: #E879F9;
+
+    --sun-yellow: #FBC02D;
+    --rain-blue: #38BDF8;
+    --sky-light: #CBD5FF;
+
+    --card-purple: #885CF6;
+    --card-dark: #2A2454;
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #94A3B8;
+
+    /* Main Background */
+    --bg-gradient: linear-gradient(180deg, #746acf 0%, #130547 100%);
+
+    /* Card Gradient */
+    --card-gradient: linear-gradient(180deg, #6C4FD6 0%, #885CF6 100%);
+
+    /* Soft Purple UI */
+    --soft-gradient: linear-gradient(180deg, #A78BFA 0%, #E879F9 100%);
+
+    /* Button Gradient */
+    --button-gradient: linear-gradient(90deg, #FBC02D 0%, #FFD54F 100%);
+
+    /* Glass Effect */
+    --glass: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+}

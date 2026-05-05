@@ -1,0 +1,33 @@
+
+@media (max-width: 992px) {
+    .inner-container,
+    .weather-container {
+        width: 70% !important;
+        padding: 20px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .inner-container,
+    .weather-container {
+        width: 90% !important;
+        padding: 18px;
+    }
+
+    .Weather-div {
+        padding: 20px 10px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .inner-container,
+    .weather-container {
+        width: 95% !important;
+        padding: 15px;
+        border-radius: 12px;
+    }
+}
