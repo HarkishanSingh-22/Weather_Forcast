@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--card-gradient);
+    background:var(--card-gradient);
 }
 
 .inner-container {
@@ -26,55 +26,58 @@
     width: 50%;
     border-radius: 18px;
     text-align: center;
-    box-shadow:
+     box-shadow: 
         0 10px 40px rgba(0, 0, 0, 0.5),
         0 0 25px rgba(108, 79, 214, 0.5),
         0 0 60px rgba(168, 139, 250, 0.3);
 }
 
-.btn-outline-warning {
+.btn-outline-warning{
     font-weight: 600;
-    background: var(--button-gradient);
+    background: var( --button-gradient);
     color: var(--primary-purple);
     width: 50%;
     height: 50px;
     font-size: 18px;
 }
-
-.btn-outline-warning:hover {
+.btn-outline-warning:hover{
     font-weight: 700;
     color: var(--accent-purple);
 }
 
 /* Weather Page CSS */
-.bi-search {
+.bi-search{
     font-size: 24px;
     cursor: pointer;
 }
-
-.form-control {
+.form-control{
     padding: 12px;
     border-radius: 24px;
     border: white;
     padding-left: 24px;
 }
-
-.form-control:focus {
+.form-control:focus{
     box-shadow: none;
 }
 
-.weather-img {
+.weather-img{
     width: 25%;
 }
-
-.celcius {
+.celcius{
     font-size: 3.5rem;
     font-weight: 500;
 }
-
-.city {
+.city{
     font-size: 46px;
 }
+
+.humidity .temp {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;
+}
+
 
 .other {
     display: flex;
@@ -85,38 +88,41 @@
     padding: 10px 50px;
 }
 
-.humidity .description {
-    font-size: 25px;
-    letter-spacing: 2px;
-    font-weight: 300;
+.humidity,
+.wind {
     text-align: center;
-
 }
 
-.humidity .temp .description {
-    font-size: 25px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    text-align: center;
-
+.humidity-img img,
+.Wind-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
-.weather-container {
-    background: var(--card-gradient);
+
+.humidity .description,
+.humidity .temp,
+.wind .desc,
+.wind .speed {
+    margin: 0;
+    text-align: center;
+}
+.weather-container{
+     background: var(--card-gradient);
     padding: 24px 18px;
     min-height: 400px;
     color: var(--text-primary);
+    width: 50%;
     margin-top: 14px;
-    margin-bottom: 24px;
     border-radius: 18px;
     text-align: center;
-    box-shadow:
+     box-shadow: 
         0 10px 40px rgba(0, 0, 0, 0.5),
         0 0 25px rgba(108, 79, 214, 0.5),
         0 0 60px rgba(168, 139, 250, 0.3);
-    margin-bottom: 24px;
+        margin-bottom: 24px;
 }
-
-.bg-weather {
-    background: var(--bg-gradient);
+.bg-weather{
+     background: var(--bg-gradient);
 }
